@@ -1,4 +1,5 @@
 
+```
 # *** THINGS TO CHANGE/CHECK: ***
 # mcu paths                             [mcu] section
 # Thermistor types                      [extruder] and [heater_bed] sections - See 'sensor types' list at end of file
@@ -17,6 +18,14 @@
 #   "NTC 100K MGB18-104F39050L32" (Keenovo Heater Pad)
 #   "AD595"
 #   "PT100 INA826"
+#   "beta4200" aka TL 300c blue wire thermistor
+
+# TriangleLab Beta3950k Thermistor Definition
+# Use this thermistore type for the TL blue cabled thermistor.
+#[thermistor beta4200]
+#temperature1: 25.0 
+#resistance1: 100000.0 
+#beta: 4200
 
 # ========================== Pin Definitions ==========================
 # X_STEP_PIN         2.2
@@ -64,3 +73,4 @@
 # FAN                2.3
 # SERVO              2.0
 # =====================================================================
+```
